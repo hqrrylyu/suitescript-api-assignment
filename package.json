@@ -1,0 +1,17 @@
+{
+  "name": "nexteum-js-assignment",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --verbose || exit 0",
+    "format": "standard --fix --verbose || exit 0"
+  },
+  "dependencies": {
+    "debug": "^4.2.0",
+    "pg": "^8.3.3"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
